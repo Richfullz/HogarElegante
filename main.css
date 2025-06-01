@@ -1,0 +1,693 @@
+/*Letra general*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+html,
+body {
+height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Aquí puedes poner el peso que quieras, ej: 400, 700, etc. */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/*Colores que voy a usar en el proyecto*/
+:root {
+  --color-letra: #fff;
+  --fondo-boton: linear-gradient(to right, #ff2e00, #ff0000);
+  --linea-borde: #470000;
+  --fondo: linear-gradient(to bottom, #784212 33%, #dc7633 100%);
+  --colorenlace: #fae5d3;
+  --colorenlacehover: #eb984e;
+}
+
+body {
+  background: var(--fondo); /* Fondo claro fuera del recuadro */
+  min-height: 100vh;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+body.inicio {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(120, 66, 18, 0.7) 33%,
+      rgba(220, 118, 51, 0.7) 100%
+    ),
+    url("./img/Fondo-inicio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+/*INICIO*/
+/*Menu-navegación*/
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0 20px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo1 {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-titulo h2 {
+  color: var(--color-letra);
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.linea-separadora {
+  width: 2px;
+  height: 100px;
+  margin: 0 30px;
+  border: 2px solid var(--linea-borde); 
+}
+
+.enlaces-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.enlaces-menu a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: var(--color-letra);
+  font-weight: 600;
+}
+
+.enlaces-menu a:hover {
+  color: var(--colorenlacehover);
+}
+.emoji {
+  font-size: 1.2em; /* Ajusta el tamaño si lo necesitas */
+  vertical-align: middle; /* Alinea verticalmente el emoji */
+  line-height: 1; /* Evita que el emoji sobresalga */
+  display: inline-block; /* Asegura que vertical-align funcione */
+  margin-right: 0.15em; /* Espacio entre emoji y texto */
+}
+/*Localizacion*/
+.descripcion {
+  max-width: 600px;
+  width: 100%;
+  margin: 48px auto 0 auto;
+  text-align: left;
+}
+.descripcion,
+h1,
+p {
+  color: var(--color-letra);
+}
+.descripcion h1 {
+  color: var(--color-letra);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+.descripcion p {
+  color: var(--color-letra);
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+.boton {
+  color: var(--color-letra);
+  background: #e67e22;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 2s all;
+}
+.boton:hover {
+  color: var(--color-letra);
+  background: var(--fondo-boton);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 2s all;
+  text-shadow: 1px 1px 1px #000;
+  cursor: pointer;
+}
+
+/*Pie de pagina*/
+.footer {
+  align-self: flex-start;  /* Lo alinea a la izquierda */
+  margin-top: auto;        /* Lo empuja al fondo */
+  position: static;        /* Quita el absolute */
+  width: fit-content;
+  padding: 14px 32px;
+  font-size: 1rem;
+  border-radius: 0 10px 0 0;
+  background: rgba(247, 191, 143, 0.49);
+  color: #fff;
+  z-index: 10;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+}
+
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+
+/*Seccion de Catálogo*/
+body.catalogo {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+      to bottom,
+     rgba(26, 26, 46, 0.2),rgba(22, 33, 62, 0.2)),
+    url("./img/fondo-catalogo.jpg");
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+}
+.titulo-catalogo {
+  text-align: center;
+  margin: 30px 0 20px 0;
+  font-size: 3.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #fff;
+  position: relative;
+  font-family: "Montserrat", "Roboto", Arial, sans-serif;
+}
+
+.titulo-catalogo::after {
+  content: "";
+  display: block;
+  margin: 16px auto 0 auto;
+  width: 150px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg,rgba(26, 26, 46 ),rgba(22, 33, 62));
+}
+
+.caja-central {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+  grid-template-rows: repeat(2, 1fr); /* 2 filas iguales */
+  gap: 10px; /* Espacio entre los bloques */
+  padding: 2rem;
+  justify-content: center; /* Centra el grid horizontalmente */
+  align-items: center; /* Centra el grid verticalmente */
+  margin: 0px auto;
+}
+.bloque1.carrusel-bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("./img/salon y sala de estar.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 250px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: background-image 0.5s;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.bloque2.carrusel-bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("./img/comedor.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 250px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: background-image 0.5s;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.bloque3.carrusel-bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("./img/dormitorio.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 250px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: background-image 0.5s;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.bloque4.carrusel-bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("./img/Estudio.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 250px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: background-image 0.5s0.7
+  text-shadow: 1px 1px 1px #000;
+}
+.bloque5.carrusel-bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("./img/almacenaje auxiliar.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 250px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: background-image 0.5s;
+  text-shadow: 1px 1px 1px #000;
+}
+.bloque6.carrusel-bloque {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("./img/Muebles antiguos.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 250px;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: background-image 0.5s;
+  text-shadow: 1px 1px 1px #000;
+}
+.carrusel-contenido {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  background: rgba(211, 211, 211, 0.62);
+  margin: 40px;
+  border-radius: 50px 50px 10px 50px;
+}
+
+.flecha-izq,
+.flecha-der {
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: #fff;
+  font-size: 2.2rem;
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+.flecha-izq:hover,
+.flecha-der:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+.carrusel-titulo {
+  font-size: 1.6rem;
+  margin: 0 0 0.3em 0;
+}
+.carrusel-subtitulo {
+  font-size: 1.2rem;
+  margin: 0.3em 0;
+}
+.carrusel-descripcion {
+  font-size: 1rem;
+  margin: 0.3em 0 0 0;
+}
+
+/*Contacto*/
+/*cabecera-contacto*/
+.contacto {
+  min-height: 100vh;
+  margin: 0;
+  background-image: 
+    linear-gradient(
+      to bottom,
+      rgba(120, 66, 18, 0.3) 33%,
+      rgba(220, 118, 51, 0.3) 100%
+    ),
+    url("./img/fondo-contacto1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.cabecera-contacto {
+  text-align: center;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.cabecera-contacto h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.cabecera-contacto p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: left;
+  width: 90%;
+  padding: 0% 5%;
+}
+
+/* Contenedor de columnas */
+.contenedor-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  max-width: 70rem;
+  margin: 0px 10% 2rem 10%;
+  color: var(--color-letra);
+}
+
+/*linea de separacion*/
+.separacion {
+  background: #470000;
+}
+/* Formulario */
+.columna-formulario {
+  flex: 1;
+  min-width: 300px;
+  background: rgba(239, 162, 95, 0.8);
+  border-radius: 12px;
+  padding: 20px 65px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  text-shadow: 0 1px 1px rgb(0, 0, 0);
+}
+.formulario .campo {
+  margin-bottom: 20px;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgb(0, 0, 0);
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.formulario textarea {
+  resize: vertical;
+}
+
+.boton-enviar {
+  color: var(--color-letra);
+  background: rgb(210, 99, 1);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 2s all;
+  text-shadow: 0 1px 1px rgb(0, 0, 0);
+  border: 1px groove rgb(148, 71, 3);
+}
+
+.boton-enviar:hover {
+  color: var(--color-letra);
+  background: var(--fondo-boton);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 2s all;
+  text-shadow: 1px 1px 1px #000;
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgb(0, 0, 0);
+  border: 1px groove rgb(196, 29, 29);
+}
+/* Información de la empresa */
+.columna-empresa {
+  flex: 1;
+  min-width: 300px;
+  background-image: url("./img/fondo-contacto.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  padding: 20px 65px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  height: 300px;
+}
+
+.columna-empresa h2 {
+  margin-bottom: 20px;
+}
+
+.columna-empresa address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.columna-empresa address p {
+  margin-bottom: 12px;
+}
+
+.columna-empresa address a {
+  color: var(--colorenlace);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.columna-empresa address a:hover {
+  color: var(--colorenlacehover);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.contenido-destacado {
+  background: rgba(164, 164, 164, 0.71);
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+}
+.contenido-destacado h2,
+.contenido-destacado address,
+.contenido-destacado p,
+.contenido-destacado a {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+.contenido-destacado strong {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+.contenido-destacado p,
+.contenido-destacado a {
+  color: var(--colorenlace);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+/*Informacion*/
+.informacion{
+
+  background-image: 
+    linear-gradient(
+      to bottom,
+     rgba(26, 26, 46, 0.3),rgba(22, 33, 62, 3)),
+    url("./img/nuestros-logros.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+}
+.container-principal {
+  margin: 3rem;
+}
+/*caja-1*/
+.container1 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    45deg,
+    rgba(238, 174, 202, 0.7) 0%,
+    rgba(148, 187, 233, 0.7) 100%
+  );
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.subcontainerA {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.subcontainerA h2 {
+  padding: 0px 5rem;
+  color: var(--color-letra);
+  font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+}
+
+.subcontainerA p {
+  font-weight: 500;
+  width: 60%;
+  padding: 0px 6rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.subcontainerB {
+  width: 30%;
+}
+.subcontainerB img {
+  width: 90%;
+  height: 130%;
+  border-radius: 15px;
+}
+/*caja-2*/
+.container2 {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(
+    230deg,
+    rgba(238, 174, 202, 0.7) 0%,
+    rgba(148, 187, 233, 0.7) 100%
+  );
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin: 15px;
+}
+.subcontainerD {
+  width: 70%;
+}
+.subcontainerD h2 {
+  padding: 0px 0rem 0px 5rem;
+  color: var(--color-letra);
+  font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+}
+.subcontainerD p {
+  font-weight: 500;
+  width: 85%;
+  padding: 0px 0rem 0px 6rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+}
+.subcontainerC {
+  width: 30%;
+}
+.subcontainerC img {
+  width: 90%;
+  height: 130%;
+  margin: 0px 0px 0px 3rem;
+  border-radius: 15px;
+}
+/*caja-3*/
+.container3 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    45deg,
+    rgba(238, 174, 202, 0.7) 0%,
+    rgba(148, 187, 233, 0.7) 100%
+  );
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.subcontainerE {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.subcontainerE h2 {
+  padding: 0px 5rem;
+  color: var(--color-letra);
+  font-weight: 800;
+  text-shadow: 1px 1px 1px black;
+}
+
+.subcontainerE p {
+  font-weight: 500;
+  width: 70%;
+  padding: 0px 6rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.subcontainerF {
+  width: 30%;
+}
+.subcontainerF img {
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+}
