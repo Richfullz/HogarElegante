@@ -1,6 +1,6 @@
-#Hogar Elegante
+# Hogar Elegante
 ## Hogar elegante una empresa de muebles que nos ofrece un gran catálogo y información sobre sus muebles artesanales, creativos, comodos para la vida diaraia del hogar.
-###![Captura de pantalla 2025-05-29 134234](https://github.com/user-attachments/assets/9b9c5a5c-f34b-4798-bd84-50a81238a6da)
+### ![Captura de pantalla 2025-05-29 134234](https://github.com/user-attachments/assets/9b9c5a5c-f34b-4798-bd84-50a81238a6da)
 
 ## Lo primero que hice en este proyecto es crear una imagen visual creando varias plantillas para como hacer este proyecto a traves de Figma antes de hacer código.
 ### ![Captura de pantalla 2025-06-01 131624](https://github.com/user-attachments/assets/5ef2c7d5-ba9e-4078-ac87-784b132d4094)
