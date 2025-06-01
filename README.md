@@ -53,9 +53,18 @@
 
 ## CSS
 ## A continuación están todos los estilos de cada sección, separados por comentarios.
+
 ### ![image](https://github.com/user-attachments/assets/d83cbbf7-0b4f-4ad7-b465-4c783d3c6033)
 ### ![image](https://github.com/user-attachments/assets/044055b4-20a1-450e-954b-4a526b7287b7)
 ### ![image](https://github.com/user-attachments/assets/4198aceb-764b-4aec-b118-1db9f9f5f156)
 ### ![image](https://github.com/user-attachments/assets/7b09968a-ea03-478e-90fd-c73f2fb023e5)
 ### ![image](https://github.com/user-attachments/assets/8371a7e6-19f6-4077-ac01-79407e3dd16c)
+### ![image](https://github.com/user-attachments/assets/b3b314d9-fb37-4495-94c0-31cecfa5195e)
+### ![image](https://github.com/user-attachments/assets/47a6295a-a056-4936-a844-2c5d71fec892)
+### ![image](https://github.com/user-attachments/assets/538e75f6-c0f9-44fa-947c-45aa6bed7e79)
+### ![image](https://github.com/user-attachments/assets/2f9ba05a-4e69-4461-a518-cb36d7daee92)
+### ![image](https://github.com/user-attachments/assets/7b08248c-a442-43c7-8ecc-2c37d2d150c7)
+### ![image](https://github.com/user-attachments/assets/c902e84b-312d-4e80-adfa-30c2169bfc97)
+### ![image](https://github.com/user-attachments/assets/87b40a3e-3b2d-4a33-bd8d-58841c392eda)
+
 
