@@ -32,4 +32,13 @@
 
 ## La sección de contacto, tenemos un formulario para describir los datos de dudas o alguna sugerencia, reclamacion o lo que sea necesario , y una pequeña descripcion donde  nos encontramos ubicados,
 ## nuestro telefono, datos personales.
+### ![Captura de pantalla 2025-06-01 141241](https://github.com/user-attachments/assets/0bb5ed9d-f253-407e-95eb-f2f043196832)
+### ![Captura de pantalla 2025-06-01 141324](https://github.com/user-attachments/assets/35586068-542d-4d44-95f4-0154f0459d7c)
+### ![Captura de pantalla 2025-06-01 141411](https://github.com/user-attachments/assets/45f03012-f090-4aac-82b6-a46c2e847d61)
+
+### ![contacto-1](https://github.com/user-attachments/assets/8127ec45-b6f2-4697-b60d-c4e763afde22)
+### ![contacto-2](https://github.com/user-attachments/assets/9abac310-5c5b-45a7-ae8d-2bf7733f2c0d)
+### ![contacto-3](https://github.com/user-attachments/assets/a8424aad-f98a-4ec0-a6a0-58933c720d5c)
+
+
 ## La sección de información donde describe un poco como nació la empresa, sus logros
