@@ -42,3 +42,12 @@
 
 
 ## La sección de información donde describe un poco como nació la empresa, sus logros
+### ![Captura de pantalla 2025-06-01 141639](https://github.com/user-attachments/assets/d1fb4282-76dd-4d2b-bfc9-b8393fe00b00)
+### ![Captura de pantalla 2025-06-01 141704](https://github.com/user-attachments/assets/2ccbed8b-8b42-4ae5-9733-0c15e827d0f7)
+### ![Captura de pantalla 2025-06-01 141724](https://github.com/user-attachments/assets/c6968355-87ab-4ff5-ae92-921c23e1234f)
+
+### ![informacion-1](https://github.com/user-attachments/assets/d7299948-2632-4d86-a941-7dca60ce5c24)
+### ![informacion-2](https://github.com/user-attachments/assets/a2cb8ff8-cdbf-43da-b5ec-85e8efa58c95)
+### ![informacion-3](https://github.com/user-attachments/assets/97ae237b-46c2-49aa-8357-90a1f184f7fc)
+### ![informacion-4](https://github.com/user-attachments/assets/cb225ed1-f27c-477a-85c7-950ee6082fc7)
+
