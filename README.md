@@ -51,3 +51,11 @@
 ### ![informacion-3](https://github.com/user-attachments/assets/97ae237b-46c2-49aa-8357-90a1f184f7fc)
 ### ![informacion-4](https://github.com/user-attachments/assets/cb225ed1-f27c-477a-85c7-950ee6082fc7)
 
+## CSS
+## A continuación están todos los estilos de cada sección, separados por comentarios.
+### ![image](https://github.com/user-attachments/assets/d83cbbf7-0b4f-4ad7-b465-4c783d3c6033)
+### ![image](https://github.com/user-attachments/assets/044055b4-20a1-450e-954b-4a526b7287b7)
+### ![image](https://github.com/user-attachments/assets/4198aceb-764b-4aec-b118-1db9f9f5f156)
+### ![image](https://github.com/user-attachments/assets/7b09968a-ea03-478e-90fd-c73f2fb023e5)
+### ![image](https://github.com/user-attachments/assets/8371a7e6-19f6-4077-ac01-79407e3dd16c)
+
