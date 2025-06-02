@@ -5,7 +5,7 @@
 ## Lo primero que hice en este proyecto es crear una imagen visual creando varias plantillas para como hacer este proyecto a traves de Figma antes de hacer código.
 ### ![Captura de pantalla 2025-06-01 131624](https://github.com/user-attachments/assets/5ef2c7d5-ba9e-4078-ac87-784b132d4094)
 ### ![Captura de pantalla 2025-05-30 165111](https://github.com/user-attachments/assets/533816bf-5bef-4519-931e-d20bd0b07361)
-### ![Captura de pantalla 2025-05-29 185208](https://github.com/user-attachments/assets/a6702aee-1337-4503-83bd-a770f1f835b1)
+### ![Captura de pantalla 2025-05-29 185208](https://github.com/user-attachments/assets/db1f283b-c55e-4878-83e8-9ab77913cc48)
 ### ![Captura de pantalla 2025-06-01 133419](https://github.com/user-attachments/assets/aaf5ed44-a56e-4a4e-b851-1c198202122c)
 
 ## La idea de hacer esta página fué en profundizar en la maquetación con HTML5, CSS3 y programar un poco de código con JS
