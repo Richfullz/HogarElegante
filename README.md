@@ -99,3 +99,8 @@
 ### Para iniciar los eventos tenía que hacer que las flechas se movieran de izquiera a derecha para ello cree el bicle foreach cogiendo los datos de los divs de HTML que cree en la sección de catalogo,
 ### creando eventos que cuando pulsara pasara solo 1 vez a la derecha o izquierda dependiendo de donde pulsaramos y me pusiera el titulo con la imagen o el subtitulo con su descripcion y su imagen visualizando cada array en el que esten ordenados para esto llama a actualizar carrousel para mostra el primer elemento al inicio que esta controla que elementos se muestran y se ocula t segun el tipo de datos por categoria o mueble
 
+# Cosas Para Mejorar
+## Hacer que el formulario se guarde en algun sitio, y ponga tus datos se han registrado correctamente
+## Hacer la página en formato Movil, tablet
+## crear mas contenido de muebles 
+## crear un asistente robot que pueda ayudar en alguna duda o sugerencia sobre la pagina
