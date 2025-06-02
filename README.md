@@ -67,4 +67,35 @@
 ### ![image](https://github.com/user-attachments/assets/c902e84b-312d-4e80-adfa-30c2169bfc97)
 ### ![image](https://github.com/user-attachments/assets/87b40a3e-3b2d-4a33-bd8d-58841c392eda)
 
+## Javascript
+### Empece a usar a usar Javascript en la sección de catálogo, por que mi idea era hacer un carrousel en el que tenga un titulo por ejemplo salon y sala de estar con un fondo general, a continuacion  
+### pulsar una flecha que pasara a otra parte de este apartado como por ejemplo el subtitulo de sofás modernos en este caso, además añadido un breve resumen  con una imagen del mueble que tiene en stock
+### muestro una imagen de los titulos, subtitulos que puse para este proyecto
+### ![image](https://github.com/user-attachments/assets/3e3166bb-fae1-4e8c-8397-b4c60d1139b5)
+
+### entonces para hacer esto hice lo siguiente:
+### Crear una estructura en HTML:
+### ![image](https://github.com/user-attachments/assets/dfa04e5e-bfd7-4db5-bf29-5eafee845bf8)
+### ![image](https://github.com/user-attachments/assets/5e5ad506-816d-4dbf-ac2d-6bde930a2660)
+### Aquí cree de manera visual de como iba a quedar el carrousel, hice un cuadro general con otros 6, le puse un color a los bordes un ancho y altura para ir viendo como quedaban.
+### hasta buscar la forma mas correcta de ponerlo
+
+### Después de hacer la estructura HTML poniendo clases a cada div que contiene el carrousel. Lo que hice fué crear función de eventos(DOM) dentro de este cree arrays con objetos que contienen la datos de ### los muebles, dentro de estos añadí datos en cada bloque, por su tipo "categoria"o y titulo(La imagen de fondo la puse en CSS), cada tipo lo partiamos en subtitulo, descripción y imagen, pasoActual 
+### indica el indice del elemento que se muestra actualmente
+
+### ![image](https://github.com/user-attachments/assets/871091df-7430-4cb2-aac5-bc147091469e)
+### ![image](https://github.com/user-attachments/assets/9b0366e2-2805-44c2-93d8-c23c68b41074)
+### ![image](https://github.com/user-attachments/assets/b1b07769-1d62-405b-ac9c-def1b06aecc1)
+
+### Ahora para partir el titulo por un lado y la subtitulo, descripción y imagen por otro.
+### Lo que haremos es mostrar titulo y ocultar subtitulo, descripcion, imagen, cuando pulsemos la flecha quitara este titulo y sus estilos, se mostrara el subitulo, descripción y imagen hasta pasar las 
+### siguientes flechas hasta llegar al titulo de nuevo retrocediendo.
+
+### Para hacer esto hice una función llamada actualizarCarrousel y dentro de esta cree un dato llamado carrousel, despues creo una constante con 3 datos, a partir de aqui use queryselector para coger esas ### clases que tenían las clases de los divs de HTML y hice un bucle if else haciendo que se cumplieran esas condiciones que hemos mencionado anteriormente.
+
+### ![image](https://github.com/user-attachments/assets/0c5ffde4-cf14-4c67-be50-52e6ed65de33)
+### ![image](https://github.com/user-attachments/assets/ae8d3a35-51bf-4eca-b4e3-3210cbc16c32)
+
+### Para iniciar los eventos tenía que hacer que las flechas se movieran de izquiera a derecha para ello cree el bicle foreach cogiendo los datos de los divs de HTML que cree en la sección de catalogo,
+### creando eventos que cuando pulsara pasara solo 1 vez a la derecha o izquierda dependiendo de donde pulsaramos y me pusiera el titulo con la imagen o el subtitulo con su descripcion y su imagen visualizando cada array en el que esten ordenados para esto llama a actualizar carrousel para mostra el primer elemento al inicio que esta controla que elementos se muestran y se ocula t segun el tipo de datos por categoria o mueble
 
